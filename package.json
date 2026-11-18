@@ -1,0 +1,11 @@
+{
+  "name": "funnel-friction-audit",
+  "version": "1.0.0",
+  "description": "Walk a sign-up page like a lead on a phone: count the taps from the ad to first value, flag email-gated access, check tracking and EU consent.",
+  "main": "audit.js",
+  "bin": { "funnel-friction-audit": "audit.js" },
+  "scripts": { "audit": "node audit.js", "test": "node test.js" },
+  "engines": { "node": ">=18" },
+  "dependencies": { "puppeteer": "^23.0.0" },
+  "license": "MIT"
+}
